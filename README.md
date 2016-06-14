@@ -4,11 +4,11 @@ AngularJs -> Workshop Part I
 ## Project Test 1 - AngularJS boiler plate
 
 This project includes the use of following
-	⋅⋅* Node
-	⋅⋅* Bower
-	⋅⋅* Gulp
-	⋅⋅* MongoDb (Connects to an api that uses)
-	⋅⋅* Sails 
+	 Node <br> 
+	 Bower <br>
+	 Gulp <br>
+	 MongoDb (Connects to an api that uses) <br>
+	 Sails <br>
 
 ### Steps to run this project
  
@@ -29,23 +29,21 @@ This project includes the use of following
 	```
 
 3. Install sails
-   Create sails project
-	⋅⋅* mkdir sails
-	⋅⋅* cd sails
-	⋅⋅* sudo npm -g install sails
-
-	⋅⋅* sails new testProject
+   Create sails project <br>
+	mkdir sails <br>
+	cd sails <br>
+	sudo npm -g install sails <br>
+	sails new testProject <br>
 
    Lift the server
-   	⋅⋅* sails lift
-   	⋅⋅* Go to http://localhost:1337/
-    
-    ⋅⋅* Connect to MongoDb
-    ⋅⋅* cd testProject
-    ⋅⋅* npm install sails-mongo --save
-    ⋅⋅* cd config
-    ⋅⋅* vi connections.js
-    ⋅⋅* Add the following code
+   	sails lift <br>
+    Go to http://localhost:1337/ <br>
+    Connect to MongoDb <br>
+    cd testProject <br>
+    npm install sails-mongo --save <br>
+    cd config <br>
+    vi connections.js <br>
+    Add the following code <br>
 
 	```
     someMongodbServer: {
@@ -64,11 +62,11 @@ This project includes the use of following
 			connection: ‘someMongodbServer’
 		};
 	```
-	⋅⋅* sails generate api testTable
-	⋅⋅* sails lift
-		⋅⋅* Choose safe 1.
+	sails generate api testTable <br>
+	sails lift <br>
+		 Choose safe 1 <br>
 
-	Test the api is bringing back data go to http://localhost:1337/testtable/
+	Test the api is bringing back data go to http://localhost:1337/testtable/ <br>
 	Should list the records you added in step 2 above
 
 4. Do an npm install & bower install in the projecttest1 directory and run gulp
