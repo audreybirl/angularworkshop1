@@ -1,9 +1,12 @@
 
-var gulp = require('gulp');
-var connect = require('gulp-connect');
-
-/* plugins
-var connect = require('gulp-connect');
+var gulp = require('gulp'),
+    connect = require('gulp-connect'),
+    proxyList = [
+    '^/testendpoint/(.*)$ http://localhost:1337/$1 [P]',
+    '^/groups/(.*)$ http://localhost:1337/$1 [P]'
+    ],
+    connect = require('gulp-connect'),
+    modRewrite = require('connect-modrewrite');
 
 gulp.task('default', function () {
   connect.server({
@@ -11,15 +14,6 @@ gulp.task('default', function () {
     port: 8888
   });
 });*/
-
-
-// add near to the top of the file
-var proxyList = [
-    '^/testendpoint/(.*)$ http://localhost:1337/$1 [P]',
-    '^/groups/(.*)$ http://localhost:1337/$1 [P]'
-];
-
-var modRewrite = require('connect-modrewrite');
 
 gulp.task('default', function () {
   connect.server({
