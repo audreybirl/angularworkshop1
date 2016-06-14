@@ -58,7 +58,7 @@ This project includes the use of following
 	vi models.js add the following
 
 	```
-		module.exports.models = = {
+		module.exports.models = {
 			connection: ‘someMongodbServer’
 		};
 	```
@@ -69,7 +69,9 @@ This project includes the use of following
 	Test the api is bringing back data go to http://localhost:1337/testtable/ <br>
 	Should list the records you added in step 2 above
 
-4. Do an npm install & bower install in the projecttest1 directory and run gulp
+4. Do an npm install & bower install in the projecttest1 directory and run gulp <br>
+   Go to the following url:  http://localhost:8888/
+
 
 
 
