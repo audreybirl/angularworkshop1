@@ -1,4 +1,4 @@
-# projecttest1
+# Project Test 1
 AngularJs -> Workshop Part I
 
 ## Project Test 1 - AngularJS boiler plate

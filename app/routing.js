@@ -9,7 +9,6 @@
     'SampleApp.core.services.rest',
     'SampleApp.config',
     'SampleApp.hello',
-    'SampleApp.features.userdetails',
     'ui.bootstrap'
     ])
   .config([
@@ -23,11 +22,6 @@
           templateUrl: "./hello/hello.html",
           controller: "HelloController"
         })
-        .when('/userdetails', {
-		    templateUrl: 'userdetails/userdetails.html',
-		    controller: 'UserdetailsController',
-		    controllerAs: 'vm'
-		    })
         .otherwise({
            redirectTo: '/'
         });
