@@ -3,12 +3,12 @@ AngularJs -> Workshop Part I
 
 ## Project Test 1 - AngularJS boiler plate
 
-This project includes the use of following
-	 Node <br> 
-	 Bower <br>
-	 Gulp <br>
-	 MongoDb (Connects to an api that uses) <br>
-	 Sails <br>
+This project includes the use of following 
+	 * Node
+	 * Bower
+	 * Gulp
+	 * MongoDb (Connects to an api that uses)
+	 * Sails
 
 ### Steps to run this project
  
@@ -28,7 +28,7 @@ This project includes the use of following
 	show collections
 	```
 
-3. Install sails
+3. Install sails <br>
    Create sails project <br>
 	mkdir sails <br>
 	cd sails <br>
