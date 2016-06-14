@@ -8,8 +8,7 @@
     'ngAnimate',
     'SampleApp.core.services.rest',
     'SampleApp.config',
-    'SampleApp.hello',
-    'ui.bootstrap'
+    'SampleApp.hello'
     ])
   .config([
     '$locationProvider',
