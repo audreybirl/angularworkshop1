@@ -13,7 +13,7 @@ gulp.task('default', function () {
     root: 'app/',
     port: 8888
   });
-});*/
+});
 
 gulp.task('default', function () {
   connect.server({
