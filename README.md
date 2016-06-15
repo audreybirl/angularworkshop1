@@ -3,12 +3,12 @@ AngularJs -> Workshop Part I
 
 ## Project Test 1 - AngularJS boiler plate
 
-This project includes the use of following 
-	 * Node
-	 * Bower
-	 * Gulp
-	 * MongoDb (Connects to an api that uses)
-	 * Sails
+This project includes the use of following  <br>
+	 * Node <br>
+	 * Bower <br>
+	 * Gulp <br>
+	 * MongoDb (Connects to an api that uses) <br>
+	 * Sails <br>
 
 ### Steps to run this project
  
