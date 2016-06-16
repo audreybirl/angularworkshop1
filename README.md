@@ -47,7 +47,7 @@ This project includes the use of following  <br>
     Go to http://localhost:1337/
 
     Connect to MongoDb <br>
-     
+
     ```
     cd testProject
     npm install sails-mongo --save 
@@ -72,9 +72,9 @@ This project includes the use of following  <br>
 			connection: ‘someMongodbServer’
 		};
 	
-	sails generate api testTable <br>
-	sails lift <br>
-		 Choose safe 1 <br>
+	sails generate api testTable
+	sails lift
+		 // Choose safe 1 
 	```
 	Test the api is bringing back data go to http://localhost:1337/testtable/ <br>
 	Should list the records you added in step 2 above
