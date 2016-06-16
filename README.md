@@ -42,10 +42,13 @@ This project includes the use of following  <br>
 
     ```
    	sails lift
-    Go to http://localhost:1337/
-    
+
     ```
+    Go to http://localhost:1337/
+
     Connect to MongoDb <br>
+     
+    ```
     cd testProject
     npm install sails-mongo --save 
     cd config 
